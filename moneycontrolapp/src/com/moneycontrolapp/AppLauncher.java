@@ -10,7 +10,9 @@ import javax.swing.UnsupportedLookAndFeelException;
 import com.moneycontrolapp.gui.MainWindow;
 
 /**
- * @author Z.
+ * <b>Money Control Application.</b>
+ * <p>This app fetches mutual funds data from www.moneycontrol.com
+ *  @author Z.
  *
  */
 public class AppLauncher {

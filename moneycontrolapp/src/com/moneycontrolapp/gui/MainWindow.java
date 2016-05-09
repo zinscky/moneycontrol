@@ -4,7 +4,6 @@
 package com.moneycontrolapp.gui;
 
 import java.awt.BorderLayout;
-import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.GridBagLayout;
 
@@ -16,7 +15,7 @@ import com.moneycontrolapp.constants.Constants;
 
 /**
  * @author Z.
- *
+ * 
  */
 public class MainWindow {
 	
@@ -25,7 +24,7 @@ public class MainWindow {
 	
 	
 	public void buildMainWindow() {
-		JFrame mainFrame = new JFrame(Constants.APP_NAME);
+		JFrame mainFrame = new JFrame(Constants.APP_NAME + " v" + Constants.APP_VERSION);
 		
 		mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		mainFrame.setExtendedState(JFrame.MAXIMIZED_BOTH);
@@ -41,7 +40,7 @@ public class MainWindow {
 		mainFrame.setVisible(true);
 	}
 	
-	public void buildMainPanel() {
+	private void buildMainPanel() {
 		mainPanel = new JPanel(new GridBagLayout());
 		
 	}
